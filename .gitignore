@@ -1,0 +1,46 @@
+# Ignore Power BI desktop autosave and backup files
+*.pbix~
+*.pbit~
+
+# Ignore datasets (optional - if data is too large or confidential)
+*.csv
+*.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Mac system files
+*.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Optional: ignore image previews if not needed
+*.png
+*.jpg
+*.jpeg
+
+# Python environment files
+Pipfile.lock
+poetry.lock
+*.egg-info/
+
+# Optional: ignore Power BI template files
+*.pbit
